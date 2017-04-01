@@ -156,7 +156,7 @@ It stand for _eXclusive or_, and means that you keep a `1`
 in a column only if the two numbers have different digit.
 If both have the same digit, you place a `0`.
 
-Get familiar with those operations if its not already the case.
+Get familiar with this operations if its not already the case.
 
 Architecture of a 8-bit computer
 --------------------------------
