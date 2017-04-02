@@ -161,9 +161,9 @@ Get familiar with this operations if its not already the case.
 Architecture of a 8-bit computer
 --------------------------------
 
-Befor writing the first line of code, lets describe
-the elementary block of hardwardcthat can be found
-in the console, and how they relate to each other.
+Before writing the first line of code, lets describe
+the elementary block of hardward you would find
+in the console, and how they relate to each others.
 Surely, this organisation will influence the design
 of your implementation.
 
@@ -171,9 +171,85 @@ of your implementation.
 The Central Process Unit, also known as
 CPU for short, is the heart (actually, the brain) of
 a computer.
+A processor does three things.
+First int read an instruction from memory.
+Then, it decode this instruction.
+It means reading the right number of arguments of
+the instruction from memory.
+Finaly, it execute the instruction.
+The instruction can be additionning two numbers, loading some
+value from memory at a specified location, writing at this location,
+and many other elementary actions.
 
+Those free actions are called together the fetch–decode–execute cycle, or
+instruction cycle.
+
+The CPU keeps repeating these cycle from start
+to the end of world (or more realistically,
+until the end of your battery).
+
+To perform his job, the CPU has access to a set
+of internal registers.
+Some store data, other address, and some are used to
+control the processor.
+
+A list of the Game Boy CPU's register can be found in annex A.
+Let describe the ones you are likelly to find in
+any computer.
+
+#### Working registers
+The _working registers_ are small variables
+contained inside the CPU, that can acessed without
+cost.
+The size of the registers are linked to the architecture of the
+processor.
+A 8 bit processor have register of size 8bits,
+whereas 32 bits and 64 bits architecture have
+respectively registers of size 4 bytes and 8 bytes.
+Usually, there is an _Accumulator_ register,
+often called `A`, which is used to store the
+result of arithmetic and binary operations.
+Often we can also find a register `C` called
+the _Counter_ which is often used for...
+yes, counting, you get it.
+
+#### Program counter
+The _program counter_ is a special
+register which store the address of the
+next instruction to fetch.
+It can be controler thanks to
+instructions like `JUMP`, `JNZ`, `CALL`
+and `RET` which change it's values
+for conditionnal branching or function call.
+
+#### Stack pointer
+The _stack pointer_ is a register which store the address
+of the stack.
+The stack is a location in the memory where
+registers can be _pushed_ (wrote) and
+_poped_ (restored, and the value is thrown).
+The data structure is a stack, which
+means that you have to retreive the values
+in the reverse order you placed them.
+The stack is used right after a function call
+in order to save the values of the registers
+the function is going to use.
+Befor quiting the
+function, the values are retrived from the stack.
+The stack can also be used for storing any kind of
+intermediate value when there is not enougth registers.
+
+#### Status register
+Status registers contains
+values that alow to control the processor
+(for example enabling or disabling interupts),
+and values that are affected by the result of the previous
+instruction (carry, flag that indicate if the result was zero, ...).
+The first type of values are controled through
+dedicated instructions.
 
 ### The memory
+
 ### IO
 ### Interupts
 
