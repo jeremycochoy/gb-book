@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170411122015" modified="D:20170419171934"/>
+<info created="D:20170411122015" modified="D:20170419221123"/>
 <ipestyle name="basic">
 <symbol name="arrow/arc(spx)">
 <path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
@@ -268,7 +268,7 @@ h
 72 768 l
 h
 </path>
-<text matrix="1 0 0 1 24 8" transformations="translations" pos="32 664" stroke="black" type="label" valign="baseline">Bios</text>
+<text matrix="1 0 0 1 24 8" transformations="translations" pos="32 664" stroke="black" type="label" width="18.735" height="6.808" depth="0" valign="baseline">Bios</text>
 <path stroke="black">
 64 768 m
 64 704 l
@@ -325,19 +325,19 @@ h
 472 704 l
 h
 </path>
-<text transformations="translations" pos="88 744" stroke="black" type="label" valign="baseline">ROM</text>
-<text matrix="1 0 0 1 0 -8" transformations="translations" pos="88 728" stroke="black" type="label" valign="baseline">Bank #0</text>
-<text matrix="1 0 0 1 0 -8" transformations="translations" pos="184 752" stroke="black" type="label" valign="baseline">ROM</text>
-<text matrix="1 0 0 1 0 -8" transformations="translations" pos="184 728" stroke="black" type="label" valign="baseline">Bank #1</text>
-<text transformations="translations" pos="264 744" stroke="black" type="label" valign="baseline">GPU</text>
-<text transformations="translations" pos="264 720" stroke="black" type="label" valign="baseline">VRAM</text>
-<text transformations="translations" pos="312 744" stroke="black" type="label" valign="baseline">Extern</text>
-<text transformations="translations" pos="312 720" stroke="black" type="label" valign="baseline">RAM</text>
-<text transformations="translations" pos="376 744" stroke="black" type="label" valign="baseline">Working</text>
-<text transformations="translations" pos="376 720" stroke="black" type="label" valign="baseline">RAM</text>
-<text matrix="1 0 0 1 -40 16" transformations="translations" pos="416 656" stroke="black" type="label" valign="baseline">Sprite attributes</text>
-<text matrix="1 0 0 1 8 0" transformations="translations" pos="448 672" stroke="black" type="label" valign="baseline">IO</text>
-<text matrix="1 0 0 1 32 -8" transformations="translations" pos="464 680" stroke="black" type="label" valign="baseline">ZRAM</text>
+<text transformations="translations" pos="88 744" stroke="black" type="label" width="23.938" height="6.808" depth="0" valign="baseline">ROM</text>
+<text matrix="1 0 0 1 0 -8" transformations="translations" pos="88 728" stroke="black" type="label" width="39.436" height="6.926" depth="1.93" valign="baseline">Bank \#0</text>
+<text matrix="1 0 0 1 0 -8" transformations="translations" pos="184 752" stroke="black" type="label" width="23.938" height="6.808" depth="0" valign="baseline">ROM</text>
+<text matrix="1 0 0 1 0 -8" transformations="translations" pos="184 728" stroke="black" type="label" width="39.436" height="6.926" depth="1.93" valign="baseline">Bank \#1</text>
+<text transformations="translations" pos="264 744" stroke="black" type="label" width="22.07" height="6.808" depth="0" valign="baseline">GPU</text>
+<text transformations="translations" pos="264 720" stroke="black" type="label" width="31.41" height="6.808" depth="0" valign="baseline">VRAM</text>
+<text transformations="translations" pos="312 744" stroke="black" type="label" width="29.777" height="6.808" depth="0" valign="baseline">Extern</text>
+<text transformations="translations" pos="312 720" stroke="black" type="label" width="23.938" height="6.808" depth="0" valign="baseline">RAM</text>
+<text transformations="translations" pos="376 744" stroke="black" type="label" width="36.834" height="6.926" depth="1.93" valign="baseline">Working</text>
+<text transformations="translations" pos="376 720" stroke="black" type="label" width="23.938" height="6.808" depth="0" valign="baseline">RAM</text>
+<text matrix="1 0 0 1 -40 16" transformations="translations" pos="416 656" stroke="black" type="label" width="72.063" height="6.926" depth="1.93" valign="baseline">Sprite attributes</text>
+<text matrix="1 0 0 1 8 0" transformations="translations" pos="448 672" stroke="black" type="label" width="11.346" height="6.808" depth="0" valign="baseline">IO</text>
+<text matrix="1 0 0 1 32 -8" transformations="translations" pos="464 680" stroke="black" type="label" width="30.026" height="6.808" depth="0" valign="baseline">ZRAM</text>
 <path stroke="black" arrow="normal/normal">
 56 680 m
 56 704 l
@@ -354,14 +354,14 @@ h
 496 680 m
 456 704 l
 </path>
-<text transformations="translations" pos="64 776" stroke="black" type="label" valign="baseline">0x00FF</text>
-<text transformations="translations" pos="160 776" stroke="black" type="label" valign="baseline">0x4000</text>
-<text transformations="translations" pos="256 776" stroke="black" type="label" valign="baseline">0x8000</text>
-<text transformations="translations" pos="304 776" stroke="black" type="label" valign="baseline">0xA000</text>
-<text transformations="translations" pos="352 776" stroke="black" type="label" valign="baseline">0xC000</text>
-<text matrix="1 0 0 1 -72 -120" transformations="translations" pos="448 776" stroke="black" type="label" valign="baseline">0xFE00</text>
-<text matrix="1 0 0 1 40 -136" transformations="translations" pos="456 792" stroke="black" type="label" valign="baseline">0xFF00</text>
-<text matrix="1 0 0 1 -8 -152" transformations="translations" pos="464 808" stroke="black" type="label" valign="baseline">0xFF80</text>
-<text transformations="translations" pos="56 656" stroke="black" type="label" valign="baseline">0x0000</text>
+<text transformations="translations" pos="64 776" stroke="black" type="label" width="33.209" height="6.808" depth="0" valign="baseline">0x00FF</text>
+<text transformations="translations" pos="160 776" stroke="black" type="label" width="30.165" height="6.42" depth="0" valign="baseline">0x4000</text>
+<text transformations="translations" pos="256 776" stroke="black" type="label" width="30.165" height="6.42" depth="0" valign="baseline">0x8000</text>
+<text transformations="translations" pos="304 776" stroke="black" type="label" width="32.655" height="6.808" depth="0" valign="baseline">0xA000</text>
+<text transformations="translations" pos="352 776" stroke="black" type="label" width="32.379" height="6.808" depth="0" valign="baseline">0xC000</text>
+<text matrix="1 0 0 1 -72 -120" transformations="translations" pos="448 776" stroke="black" type="label" width="33.486" height="6.808" depth="0" valign="baseline">0xFE00</text>
+<text matrix="1 0 0 1 40 -136" transformations="translations" pos="456 792" stroke="black" type="label" width="33.209" height="6.808" depth="0" valign="baseline">0xFF00</text>
+<text matrix="1 0 0 1 -8 -152" transformations="translations" pos="464 808" stroke="black" type="label" width="33.209" height="6.808" depth="0" valign="baseline">0xFF80</text>
+<text transformations="translations" pos="56 656" stroke="black" type="label" width="30.165" height="6.42" depth="0" valign="baseline">0x0000</text>
 </page>
 </ipe>
